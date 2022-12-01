@@ -10,7 +10,11 @@ int main() {
 	fd = open("test.txt",O_RDONLY);
 	val1 = fd;
 	if(val1 < 0){
+<<<<<<< HEAD
 		perror("コメント1--");
+=======
+		perror("コメント1-");
+>>>>>>> 055a278eec7e89d5baf5cb000d71e4a2c10361e7
 		exit(1);
 	}
 
