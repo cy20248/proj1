@@ -10,7 +10,7 @@ int main() {
 	fd = open("test.txt",O_RDONLY);
 	val1 = fd;
 	if(val1 < 0){
-		perror("コメント1---");
+		perror("コメント1");
 		exit(1);
 	}
 
